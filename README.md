@@ -4,6 +4,16 @@ A small end-to-end machine learning project forecasting next-week product demand
 
 The goal is to compare simple statistical and tree-based models against a naive persistence baseline, while using a leakage-safe chronological evaluation setup.
 
+## Tools
+
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- matplotlib
+- Jupyter
+- Git
+
 ## Dataset
 
 The project uses the UCI Machine Learning Repository's
@@ -11,7 +21,7 @@ The project uses the UCI Machine Learning Repository's
 https://archive.ics.uci.edu/dataset/352/online+retail
 
 It contains transaction-level data from a UK-based online retailer
-between December 2010 and December 2011..
+between December 2010 and December 2011.
 
 The raw data contains approximately 540,000 transactions.
 
@@ -104,13 +114,3 @@ The main analysis is contained in:
 `retail_demand_forecasting.ipynb`
 
 The notebook includes the full data preparation, feature construction, model selection, test evaluation, and error analysis.
-
-## Tools
-
-- Python
-- pandas
-- NumPy
-- scikit-learn
-- matplotlib
-- Jupyter
-- Git
